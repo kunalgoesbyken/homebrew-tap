@@ -1,6 +1,6 @@
 cask "gostman" do
-  version "1.6.0"
-  sha256 "fffe16bd3d1c19f979087c978cfc3b83cd2c2363a4b6b89ee16785883bef5314"
+  version "1.7.0"
+  sha256 "a8212970e5f805dc2472eae9ce38cff97276dd62280f58db0d9b63044a7542e4"
 
   url "https://github.com/kunalgoesbyken/gostman/releases/download/v#{version}/Gostman-darwin-universal.dmg"
   name "Gostman"
