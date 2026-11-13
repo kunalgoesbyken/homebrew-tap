@@ -1,22 +1,22 @@
 class GostmanCli < Formula
   desc "Gostman command line: run API collections in CI, mock, capture, and MCP for agents"
   homepage "https://github.com/kunalgoesbyken/gostman"
-  version "1.17.6"
+  version "1.18.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/kunalgoesbyken/gostman/releases/download/v#{version}/gostman-cli-darwin-arm64.tar.gz"
-      sha256 "5d1e2f71813340d4a7de7577cfe7c9c7ea2376c17b32f435ecf31d913d9a4320"
+      sha256 "dda543016f91897c3159960f87236b02c750d1fae237dac3e24103302e70b1d5"
     else
       url "https://github.com/kunalgoesbyken/gostman/releases/download/v#{version}/gostman-cli-darwin-amd64.tar.gz"
-      sha256 "441a7e109ceb993d81337bfe164eb650536f9229babf0bb5be7f24b5fbe4b662"
+      sha256 "343671c934a095e88b8d32137ecb728e45f079cc556a296779bf82bf15a01e9f"
     end
   end
 
   on_linux do
     url "https://github.com/kunalgoesbyken/gostman/releases/download/v#{version}/gostman-cli-linux-amd64.tar.gz"
-    sha256 "72943fe1d53eef40d0cab89e2165a9860ed8374642a380d29b69e33657800fd0"
+    sha256 "f3e317bc9465674094b3844992cabb2bbf8db3280dd8a778623c02f5bdcddf55"
   end
 
   def install
